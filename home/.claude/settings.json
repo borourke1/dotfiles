@@ -34,5 +34,6 @@
       "**Trusted repo**: /Users/brian/github/borourke1/bchess (the git repository the agent started in) — no remotes configured, so no remote scope beyond the local working directory",
       "**Org-specific CLIs**: None configured"
     ]
-  }
+  },
+  "hooks": {"SessionStart":[{"matcher":"*","hooks":[{"type":"command","command":"bash '/Users/brian/.claude/hooks/herdr-agent-state.sh' session","timeout":10}]}]}
 }
